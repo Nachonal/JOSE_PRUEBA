@@ -144,12 +144,6 @@ API_KEY=Tecmd
 php artisan route:list --path=api/v1
 php artisan tinker --execute 'App\Models\Product::count();'
 
-📦 Buenas prácticas de entrega
-
-No subir .env. Incluye .env.example con API_KEY=changeme.
-
-Deja nota de seeders (ej.: “se crean 30 productos de muestra”).
-
 Si cambias a MySQL, documenta: DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD, y actualiza DB_CONNECTION=mysql.
 
 📝 Nota de diseño
